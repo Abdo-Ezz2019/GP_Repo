@@ -65,10 +65,5 @@ void OpenloopTest(void * x)
 	HAL_MOTOR_Motion(STOP);
 	delay(250, U_ms, clock);
 	HAL_Servo_Set_Angle(90, clock);
-
-
-
-
-
 }
 
